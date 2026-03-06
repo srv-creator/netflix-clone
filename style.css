@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(46, 44, 44, 0.656);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+    position: sticky;
+    top: 0;
+}
+
+header h1 {
+    color: red;
+}
+
+header a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: large;
+    font-weight: 500;
+    color: white;
+}
+
+.hero {
+    display: block;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 5rem;
+    color: white;
+    font-weight: 600;
+}
+
+.hero p {
+    font-size: 3rem;
+    color: white;
+}
+
+button {
+    padding: 20px 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: red;
+    font-size: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(205, 7, 7);
+}
+
+.main h2 {
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+}
+
+.collection {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img {
+    max-width: 300px;
+}
