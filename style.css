@@ -6,7 +6,7 @@ body {
 }
 
 .background-image {
-    background-image: linear-gradient(rgb(0 0 0 / 92%), rgb(0 0 0 / 66%)),url(bc.jpg);
+    background-image: linear-gradient(rgb(0 0 0 / 92%), rgb(0 0 0 / 66%)),url("bc.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
